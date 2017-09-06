@@ -1,0 +1,26 @@
+#mainHeading
+ {
+    margin-top: 0;
+    height: fit-content;
+    line-height: 70px;
+    text-align: center;
+    font-family:"Arial Black", Gadget, sans-serif;
+    font-size: 60;
+    -webkit-text-fill-color:wheat;
+    -webkit-text-stroke: 2px;
+}
+#startBlock {
+    position: absolute;
+    left: 50%;
+    font-size: 50;
+    text-align: center;
+    transform: translateX(-50%);
+    height: max-content;
+    width: max-content;
+    border-radius: 5%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: 	#FFE4E1;
+    visibility: visible;
+}

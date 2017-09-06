@@ -1,0 +1,136 @@
+<html> 
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="quiz.js"></script>
+        <link rel="stylesheet" type="text/css" href="quiz.css">
+    </head>
+    <body>
+        <div id="mainHeading" type="block">
+        <h1><b> Lyrics Master </b></h1>
+        <h4><b> Can you gues all the lyrics? </b></h4>
+        </div>
+        <br>
+        <!-- <ol id="questionsList"> -->
+            <div id="questionsBlock1">
+            <h2 id="questionNumber"> </h2>
+            <h2 id="question">"We'll walk this road together, through the storm"</h2>
+                <form action="group1"> <br>
+                <input type="radio" name="answer1" value="right"checked="checked" class="option-input radio"><label id="questionLabel">Eminem - Not Afraid</label><br>
+                <input type="radio" name="answer1" value="wrong"class="option-input radio"><label id="questionLabel">Eminem - The Real Slim Shady</label><br>
+                <input type="radio" name="answer1" value="wrong"class="option-input radio"><label id="questionLabel">50 Cent - Window Shopper</label><br>
+                <input type="radio" name="answer1" value="wrong"class="option-input radio"><label id="questionLabel">Dr.Dre - Still Dre</label><br><br>
+                </form>
+                <button id="nextButton" onclick="nextQuestion1()">Next Question</button>
+            </div>
+            
+            <div id="questionsBlock2">
+            <h2 id="question2">"My mama don't like you and she likes everyone"</h2>
+                <form action="group2"> <br>
+                <input type="radio" name="answer2" value="wrong"checked="checked" class="option-input radio" ><label id="questionLabel">Justin Timberlake - Cry Me a River</label><br>
+                <input type="radio" name="answer2" value="wrong"class="option-input radio"><label id="questionLabel">Rihanna - Rehab</label><br>
+                <input type="radio" name="answer2" value="right"class="option-input radio"><label id="questionLabel">Justin Bieber - Love Yourself</label><br>
+                <input type="radio" name="answer2" value="wrong"class="option-input radio"><label id="questionLabel">PSY - Gangnam Style</label><br>
+                </form>
+                <button id="nextButton" onclick="nextQuestion2()">Next Question</button>
+            </div>
+            <div id="questionsBlock3">
+                <h2 id="question">"I never miss a beat, I'm lightning on my feet"</h2>
+                    <form action="group1"> <br>
+                    <input type="radio" name="answer3" value="wrong"checked="checked" class="option-input radio"><label id="questionLabel">Fifth Harmony - Work From Home</label><br>
+                    <input type="radio" name="answer3" value="right"class="option-input radio"><label id="questionLabel">Taylor Swift - Shake It Off</label><br>
+                    <input type="radio" name="answer3" value="wrong"class="option-input radio"><label id="questionLabel">50 Cent - Window Shopper</label><br>
+                    <input type="radio" name="answer3" value="wrong"class="option-input radio"><label id="questionLabel">Gwen Stefani - The Sweet Escape</label><br><br>
+                    </form>
+                    <button id="nextButton" onclick="nextQuestion3()">Next Question</button>
+                </div>
+                
+                <div id="questionsBlock4">
+                <h2 id="question2">"Girl, you know I want your love"</h2>
+                    <form action="group2"> <br>
+                    <input type="radio" name="answer4" value="wrong"checked="checked" class="option-input radio" ><label id="questionLabel">Bryan Adams - I Do It for You</label><br>
+                    <input type="radio" name="answer4" value="wrong"class="option-input radio"><label id="questionLabel">Shawn Mendes - Mercy</label><br>
+                    <input type="radio" name="answer4" value="wrong"class="option-input radio"><label id="questionLabel">Bruno Mars - That's What I Like</label><br>
+                    <input type="radio" name="answer4" value="right"class="option-input radio"><label id="questionLabel">Ed Sheeran - Shape of You</label><br>
+                    </form>
+                    <button id="nextButton" onclick="nextQuestion4()">Next Question</button>
+                </div>
+                <div id="questionsBlock5">
+                    <h2 id="question">"Diamonds ain't nothing when I'm rockin' with ya"</h2>
+                        <form action="group1"> <br>
+                        <input type="radio" name="answer5" value="wrong"checked="checked" class="option-input radio"><label id="questionLabel">Selena Gomez - It Ain`t Me</label><br>
+                        <input type="radio" name="answer5" value="right"class="option-input radio"><label id="questionLabel">DJ Khaled – Wild Thoughts</label><br>
+                        <input type="radio" name="answer5" value="wrong"class="option-input radio"><label id="questionLabel">Jennifer Lopez - Booty</label><br>
+                        <input type="radio" name="answer5" value="wrong"class="option-input radio"><label id="questionLabel">Mike Posner - Cooler Than Me</label><br><br>
+                        </form>
+                        <button id="nextButton" onclick="nextQuestion5()">Next Question</button>
+                </div>
+                    
+                    <div id="questionsBlock6">
+                    <h2 id="question2">"Don't let him in, you'll have to kick him out again"</h2>
+                        <form action="group2"> <br>
+                        <input type="radio" name="answer6" value="right"checked="checked" class="option-input radio" ><label id="questionLabel">Dua Lipa - New Rules</label><br>
+                        <input type="radio" name="answer6" value="wrong"class="option-input radio"><label id="questionLabel">Camila Cabello - Havana</label><br>
+                        <input type="radio" name="answer6" value="wrong"class="option-input radio"><label id="questionLabel">Imagina Dragons - Thunder</label><br>
+                        <input type="radio" name="answer6" value="wrong"class="option-input radio"><label id="questionLabel">Cardi B - Bodak Yellow</label><br>
+                        </form>
+                        <button id="nextButton" onclick="nextQuestion6()">Next Question</button>
+                    </div>
+                    <div id="questionsBlock7">
+            <h2 id="question">"Make me wanna savor every moment slowly, slowly"</h2>
+                <form action="group1"> <br>
+                <input type="radio" name="answer7" value="wrong"checked="checked" class="option-input radio"><label id="questionLabel">Kendrick Lamar - Humble </label><br>
+                <input type="radio" name="answer7" value="wrong"class="option-input radio"><label id="questionLabel">Avicii - Without You </label><br>
+                <input type="radio" name="answer7" value="wrong"class="option-input radio"><label id="questionLabel">21 Savage - Bank Account</label><br>
+                <input type="radio" name="answer7" value="right"class="option-input radio"><label id="questionLabel">Luis Fonsi and Daddy Yankee feat. Justin Bieber - Despacito</label><br><br>
+                </form>
+                <button id="nextButton" onclick="nextQuestion7()">Next Question</button>
+            </div>
+            
+            <div id="questionsBlock8">
+            <h2 id="question2">"You are unforgettable, I wanna get you alone"</h2>
+                <form action="group2"> <br>
+                <input type="radio" name="answer8" value="wrong"checked="checked" class="option-input radio" ><label id="questionLabel">Demi Lovato - Sorry Not Sorry</label><br>
+                <input type="radio" name="answer8" value="right"class="option-input radio"><label id="questionLabel">French Montana ft. Swae Lee - Unforgettable</label><br>
+                <input type="radio" name="answer8" value="wrong"class="option-input radio"><label id="questionLabel">Charlie Puth - Atention</label><br>
+                <input type="radio" name="answer8" value="wrong"class="option-input radio"><label id="questionLabel">Liam Payne - Strip That Down</label><br>
+                </form>
+                <button id="nextButton" onclick="nextQuestion8()">Next Question</button>
+            </div>
+            <div id="questionsBlock9">
+            <h2 id="question">"Honey, I rose up from the dead, I do it all the time"</h2>
+                <form action="group1"> <br>
+                <input type="radio" name="answer9" value="wrong"checked="checked" class="option-input radio"><label id="questionLabel">Marshmello ft. DJ Khalid - Silence </label><br>
+                <input type="radio" name="answer9" value="wrong"class="option-input radio"><label id="questionLabel">Jonas Blue - Mama</label><br>
+                <input type="radio" name="answer9" value="right"class="option-input radio"><label id="questionLabel">Taylor Swift - Look What You Made Me Do</label><br>
+                <input type="radio" name="answer9" value="wrong"class="option-input radio"><label id="questionLabel">P!nk - What About Us</label><br><br>
+                </form>
+                <button id="nextButton" onclick="nextQuestion9()">Next Question</button>
+            </div>
+            
+            <div id="questionsBlock10">
+            <h2 id="question2">"To memorize the way you shock me, the way you move it here"</h2>
+                <form action="group2"> <br>
+                <input type="radio" name="answer10" value="right"checked="checked" class="option-input radio" ><label id="questionLabel">Calvin Harris ft. Pharrell Williams, Katy Perry and Big Sean - Feels</label><br>
+                <input type="radio" name="answer10" value="wrong"class="option-input radio"><label id="questionLabel">David Guetta ft. Justin Bieber - 2U</label><br>
+                <input type="radio" name="answer10" value="wrong"class="option-input radio"><label id="questionLabel">Louis Tomlinson ft. Bebe Rexha - Back To You</label><br>
+                <input type="radio" name="answer10" value="wrong"class="option-input radio"><label id="questionLabel">Shawn Mendes - There`s Nothing Holdin` Me Back</label><br>
+                </form>
+                <button onclick="userResults()" id="resultsButton">Submit</button>
+                </div>
+            
+            <div id="resultsBlock">
+            <p id="resultsField"> </p>
+            <p id="answers">  </p>
+            <!-- <img id="imageField"> </img> -->
+            <button id="answersList" onclick="seeAnswers()"> See Answers </button>
+            <button onclick="clearResults()" id="clearButton">Do the quiz again</button>
+            </div>
+        </ol>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+          
+      </body>
+</html>
